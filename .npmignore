@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+
+# 构建产物（我们会在发布前构建）
+# dist/
+
+# 环境变量
+.env
+.env.local
+
+# 日志
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# 示例（可选发布，保留以便用户参考）
+# examples/
+
+# 其他
+.DS_Store
+*.tsbuildinfo
+tsup.config.ts
